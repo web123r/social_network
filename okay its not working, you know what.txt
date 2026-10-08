@@ -1,0 +1,15 @@
+okay its not working, you know what, lets start afresh 
+i want to have a samsung style dex mode , especially with a tile such that when it is enabled , all the apps i tap on from the home screen is opened in floating mode until the tile is turmed off 
+when the tile is turned off it should open as full screen again 
+
+verification; right now the device is on the home screen , when you're done building the app and esnuring necessary permissions, take a screen shot of the home screen  analyse it and simulate a touch on one of the apps(maybe using input from adb) , any one of your choice rather than launching into windowed mode in the background, this test is as close to human as possiible 
+
+
+feel free to make optimisations where necesssary but the primary goal MUST be accomplished
+
+make researches if you  have to 
+
+
+Taskbar app by braden farmer is known to work well with floating windows (the apps it launches can then be dragged to full screen mode) it can also launch into split screen ---we will implement this feature later but for now focus on the primary goal
+
+Thank you!

@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Facebook</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body class="feed-page">
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="nav-left">
+            <a href="feed.html"><img src="https://upload.wikimedia.org/wikipedia/commons/b/b8/2021_Facebook_icon.svg" alt="Logo" class="logo"></a>
+            <div class="search-box">
+                <i class="fa-solid fa-magnifying-glass"></i>
+                <input type="text" placeholder="Search Facebook">
+            </div>
+        </div>
+        <div class="nav-center">
+            <a href="feed.html" class="nav-icon active"><i class="fa-solid fa-house"></i></a>
+            <a href="#" class="nav-icon"><i class="fa-regular fa-circle-play"></i></a>
+            <a href="#" class="nav-icon"><i class="fa-solid fa-store"></i></a>
+            <a href="#" class="nav-icon"><i class="fa-solid fa-users"></i></a>
+            <a href="#" class="nav-icon"><i class="fa-solid fa-gamepad"></i></a>
+        </div>
+        <div class="nav-right">
+            <div class="profile-link">
+                <a href="profile.html">
+                    <img src="https://i.pravatar.cc/150?img=11" alt="Profile">
+                </a>
+            </div>
+            <div class="icon-btn"><i class="fa-solid fa-bars"></i></div>
+            <div class="icon-btn"><i class="fa-brands fa-facebook-messenger"></i></div>
+            <div class="icon-btn"><i class="fa-solid fa-bell"></i></div>
+        </div>
+    </nav>
+
+    <!-- Main Container -->
+    <div class="main-container">
+        <!-- Left Sidebar -->
+        <div class="left-sidebar">
+            <a href="profile.html" class="sidebar-item">
+                <img src="https://i.pravatar.cc/150?img=11" alt="Profile">
+                <span>Isaac Ferronme</span>
+            </a>
+            <a href="#" class="sidebar-item">
+                <i class="fa-solid fa-user-group" style="color: #1877f2;"></i>
+                <span>Friends</span>
+            </a>
+            <a href="#" class="sidebar-item">
+                <i class="fa-solid fa-clock-rotate-left" style="color: #1877f2;"></i>
+                <span>Memories</span>
+            </a>
+            <a href="#" class="sidebar-item">
+                <i class="fa-solid fa-bookmark" style="color: #a322c3;"></i>
+                <span>Saved</span>
+            </a>
+            <a href="#" class="sidebar-item">
+                <i class="fa-solid fa-users" style="color: #1877f2;"></i>
+                <span>Groups</span>
+            </a>
+            <a href="#" class="sidebar-item">
+                <i class="fa-solid fa-video" style="color: #1877f2;"></i>
+                <span>Video</span>
+            </a>
+            <a href="#" class="sidebar-item">
+                <i class="fa-solid fa-store" style="color: #1877f2;"></i>
+                <span>Marketplace</span>
+            </a>
+            <hr>
+            <h4>Your shortcuts</h4>
+            <a href="#" class="sidebar-item">
+                <img src="https://i.pravatar.cc/150?img=3" alt="Group">
+                <span>Web Developers Group</span>
+            </a>
+        </div>
+
+        <!-- Main Content (Feed) -->
+        <div class="main-content">
+            <!-- Stories -->
+            <div class="stories-container">
+                <div class="story create-story">
+                    <img src="https://i.pravatar.cc/150?img=11" alt="Profile" class="story-img">
+                    <div class="create-story-btn"><i class="fa-solid fa-plus"></i></div>
+                    <p>Create story</p>
+                </div>
+                <div class="story">
+                    <img src="https://i.pravatar.cc/300?img=20" alt="Story" class="story-bg">
+                    <img src="https://i.pravatar.cc/150?img=21" alt="User" class="story-profile">
+                    <p>Jane Doe</p>
+                </div>
+                <div class="story">
+                    <img src="https://i.pravatar.cc/300?img=22" alt="Story" class="story-bg">
+                    <img src="https://i.pravatar.cc/150?img=23" alt="User" class="story-profile">
+                    <p>John Smith</p>
+                </div>
+                <div class="story">
+                    <img src="https://i.pravatar.cc/300?img=24" alt="Story" class="story-bg">
+                    <img src="https://i.pravatar.cc/150?img=25" alt="User" class="story-profile">
+                    <p>Alice Johnson</p>
+                </div>
+            </div>
+
+            <!-- Create Post -->
+            <div class="create-post-box">
+                <div class="create-post-top">
+                    <a href="profile.html"><img src="https://i.pravatar.cc/150?img=11" alt="Profile"></a>
+                    <input type="text" placeholder="What's on your mind, Isaac?">
+                </div>
+                <hr>
+                <div class="create-post-bottom">
+                    <div class="action-btn">
+                        <i class="fa-solid fa-video" style="color: #f3425f;"></i>
+                        <span>Live video</span>
+                    </div>
+                    <div class="action-btn">
+                        <i class="fa-regular fa-image" style="color: #45bd62;"></i>
+                        <span>Photo/video</span>
+                    </div>
+                    <div class="action-btn">
+                        <i class="fa-regular fa-face-smile" style="color: #f7b928;"></i>
+                        <span>Feeling/activity</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Post 1 -->
+            <div class="post">
+                <div class="post-header">
+                    <img src="https://i.pravatar.cc/150?img=12" alt="User">
+                    <div class="post-info">
+                        <h4>Mark Zuckerberg</h4>
+                        <span>2 hrs &middot; <i class="fa-solid fa-earth-americas"></i></span>
+                    </div>
+                    <i class="fa-solid fa-ellipsis post-options"></i>
+                </div>
+                <div class="post-content">
+                    <p>Just launched a new feature on Facebook today. Let me know what you think!</p>
+                </div>
+                <div class="post-stats">
+                    <div class="likes">
+                        <i class="fa-solid fa-thumbs-up" style="color: #1877f2;"></i>
+                        <i class="fa-solid fa-heart" style="color: #f3425f;"></i>
+                        <span>14K</span>
+                    </div>
+                    <div class="comments-shares">
+                        <span>1.2K comments &middot; 400 shares</span>
+                    </div>
+                </div>
+                <hr>
+                <div class="post-actions">
+                    <div class="action-btn like-btn">
+                        <i class="fa-regular fa-thumbs-up"></i>
+                        <span>Like</span>
+                    </div>
+                    <div class="action-btn">
+                        <i class="fa-regular fa-comment"></i>
+                        <span>Comment</span>
+                    </div>
+                    <div class="action-btn">
+                        <i class="fa-solid fa-share"></i>
+                        <span>Share</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Post 2 -->
+            <div class="post">
+                <div class="post-header">
+                    <img src="https://i.pravatar.cc/150?img=33" alt="User">
+                    <div class="post-info">
+                        <h4>Sarah Jenkins</h4>
+                        <span>5 hrs &middot; <i class="fa-solid fa-user-group"></i></span>
+                    </div>
+                    <i class="fa-solid fa-ellipsis post-options"></i>
+                </div>
+                <div class="post-content">
+                    <p>Beautiful day at the beach! 🌊☀️</p>
+                    <img src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=800" alt="Post Image" class="post-img">
+                </div>
+                <div class="post-stats">
+                    <div class="likes">
+                        <i class="fa-solid fa-heart" style="color: #f3425f;"></i>
+                        <span>245</span>
+                    </div>
+                    <div class="comments-shares">
+                        <span>42 comments &middot; 5 shares</span>
+                    </div>
+                </div>
+                <hr>
+                <div class="post-actions">
+                    <div class="action-btn like-btn">
+                        <i class="fa-regular fa-thumbs-up"></i>
+                        <span>Like</span>
+                    </div>
+                    <div class="action-btn">
+                        <i class="fa-regular fa-comment"></i>
+                        <span>Comment</span>
+                    </div>
+                    <div class="action-btn">
+                        <i class="fa-solid fa-share"></i>
+                        <span>Share</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Right Sidebar -->
+        <div class="right-sidebar">
+            <h4>Sponsored</h4>
+            <div class="sponsored-item">
+                <img src="https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=150" alt="Ad">
+                <div class="sponsored-text">
+                    <p>Learn Web Development</p>
+                    <span>course.example.com</span>
+                </div>
+            </div>
+            <hr>
+            <div class="contacts-header">
+                <h4>Contacts</h4>
+                <div class="contacts-icons">
+                    <i class="fa-solid fa-video"></i>
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                    <i class="fa-solid fa-ellipsis"></i>
+                </div>
+            </div>
+            <div class="contact-item">
+                <div class="contact-img-wrapper">
+                    <img src="https://i.pravatar.cc/150?img=41" alt="Contact">
+                    <span class="online-dot"></span>
+                </div>
+                <span>David Brown</span>
+            </div>
+            <div class="contact-item">
+                <div class="contact-img-wrapper">
+                    <img src="https://i.pravatar.cc/150?img=42" alt="Contact">
+                    <span class="online-dot"></span>
+                </div>
+                <span>Emily Davis</span>
+            </div>
+            <div class="contact-item">
+                <div class="contact-img-wrapper">
+                    <img src="https://i.pravatar.cc/150?img=43" alt="Contact">
+                </div>
+                <span>Michael Wilson</span>
+            </div>
+        </div>
+    </div>
+    
+    <script src="js/main.js"></script>
+</body>
+</html>
